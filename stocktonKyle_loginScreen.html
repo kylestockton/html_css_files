@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="stocktonKyle_loginStyle.css">
+</head>
+
+<body class="container">
+<div class="login">
+	<h1>Login</h1>
+	<!--Form to log in to website; information submitted via verifyuser.php(unfinished)-->
+	<form name="login" method="post" action="">
+		<!--User enters email address-->
+		<label for="email">Email: </label> <input type="email" name="email" placeholder="Please enter your email address" required autofocus> <br><br>
+		<!--User enters password-->
+		<label for="password">Password: </label> <input type="password" placeholder="Please enter your password" required> <br><br>
+		<!--User checks box if they want to be permanently logged in-->
+		<input type="checkbox" name="remembercheckbox" value="rememberuser"> <label for="remembercheckbox" class="checkboxlabel"> Remember me</label> 
+		<!--User presses button to submit login credentials-->
+		<input type="submit" class="submit" name="submit" value="Log In">
+	</form>
+	</div>
+	<!--User can request password reset-->
+	<p class="login-help"> <a href="#">I lost my password.</a> </p>
+	
+</body>
+
+</html>
